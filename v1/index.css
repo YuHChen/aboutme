@@ -1,0 +1,32 @@
+article {
+    min-width: 200px;
+}
+h1.intro {
+    font-family: 'Comfortaa', helvetica, arial, sans-serif;
+    font-size: 40px;
+    color: rgba(255,0,0,0.5);
+}
+p.intro {
+    font-family: 'Ubuntu Mono', helvetica, arial, sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -15px;
+    left: 50px;
+    width: 90%;
+}
+@media (max-width: 700px) {
+    h1.intro {
+	font-size: 36px;
+    }
+    p.intro {
+	font-size: 18px;
+    }
+}
+@media (max-width: 350px) {
+    h1.intro {
+	font-size: 32px;
+    }
+    p.intro{
+	font-size: 14px;
+    }
+}

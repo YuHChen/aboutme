@@ -1,0 +1,45 @@
+article {
+    min-width: 200px;
+}
+h1 {
+    font-family: 'Comfortaa', helvetica, arial, sans-serif;
+    font-size: 40px;
+    color: rgba(255,0,0,0.5);
+}
+p {
+    font-family: 'Ubuntu Mono', helvetica, arial, sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -15px;
+    left: 50px;
+}
+.mainDiv ul{
+    position: relative;
+    top: -20px;
+    left: 50px;
+}
+#github {
+    font-family: 'Handlee', helvetica, arial, sans-serif;
+    font-size: 24px;
+}
+
+#github , #github:visited { color: rgba(0, 165, 165, 0.8); text-decoration: none; }
+#github:hover { text-decoration: underline; }
+#github:active { color: rgba(255,0,0,0.5); }
+
+@media (max-width: 700px) {
+    h1{
+	font-size: 36px;
+    }
+    p{
+	font-size: 18px;
+    }
+}
+@media (max-width: 350px) {
+    h1 {
+	font-size: 32px;
+    }
+    p1 {
+	font-size: 14px;
+    }
+}
