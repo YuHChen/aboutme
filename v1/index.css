@@ -6,7 +6,20 @@ h1.intro {
     font-size: 40px;
     color: rgba(255,0,0,0.5);
 }
+h1.about {
+    font-family: 'Comfortaa', helvetica, arial, sans-serif;
+    font-size: 40px;
+    color: rgba(255,0,0,0.5);    
+}
 p.intro {
+    font-family: 'Ubuntu Mono', helvetica, arial, sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -15px;
+    left: 50px;
+    width: 90%;
+}
+p.about {
     font-family: 'Ubuntu Mono', helvetica, arial, sans-serif;
     font-size: 24px;
     position: relative;
@@ -21,12 +34,24 @@ p.intro {
     p.intro {
 	font-size: 18px;
     }
+    h1.about {
+	font-size: 36px;
+    }
+    p.about {
+	font-size: 18px;
+    }
 }
 @media (max-width: 350px) {
     h1.intro {
 	font-size: 32px;
     }
-    p.intro{
+    p.intro {
+	font-size: 14px;
+    }
+    h1.about {
+	font-size: 32px;
+    }
+    p.about {
 	font-size: 14px;
     }
 }
